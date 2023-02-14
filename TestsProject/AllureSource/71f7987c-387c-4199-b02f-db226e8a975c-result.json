@@ -1,24 +1,26 @@
 {
-	"uuid": "c18a00fb-2004-481d-9999-243d07883cfc",
+	"uuid": "71f7987c-387c-4199-b02f-db226e8a975c",
 	"historyId": "СН Цепочка документов под Админом.Создание Плана производства",
 	"name": "Создание Плана производства",
 	"fullName": "убд 21 сн.feature_создание плана производства",
 	"testCaseId": "9b080b2eb3493a3020405f4e1ec76f7e",
-	"start": 1676351222437,
-	"stop": 1676351227535,
+	"start": 1676379717781,
+	"stop": 1676379725440,
 	"statusDetails": {
 		"known": false,
 		"muted": false,
-		"flaky": false
+		"flaky": false,
+		"message": "Не получилось нажать на команду <Журнал документов> панели функций.",
+		"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(7270)}: {ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(7142)}: Не получилось нажать на команду <Журнал документов> панели функций.\nНе нашли меню функций раздела.\nПанель разделов <Главное>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Отдел гарантии и эксплуатации - Авдеев Никита Николаевич [ДНС Девелопмент]\n        ИмяАктивнойФормы: \n        ИмяФичи: СН Цепочка документов под Админом\n        ИмяСценария: Создание Плана производства\n        НомерСтрокиДерева: 45\n        НомерСтрокиФичи: 55\n        ПолныйПутьКФиче: C:\\VA\\TestsProject\\УБД 21 СН.feature\n        ИмяФайла: C:/VA/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ИмяРаннера: ADM-PROG-90\n        ТипПлатформы: Windows x86-64\n        ИмяКлиентаТестирования: ПЭО\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"sand-1c-13:3541\";Ref=\"13_tyisyachnyiy_test_platforma\";\n        ДопПараметрыПодключения: /N\"Авдеев Никита\" /P\"1\" \n        PIDКлиентаТестирования: 14588\n        ВерсияVA: ver 1.2.040.1\n        ВерсияПлатформы: 8.3.21.1302\n        РежимСовместимостиTestManager: Версия8_3_19\n        ВремяРаботыСценария: 0,1 минут\n        ДатаВремяОшибки: 14.02.2023 23:02:05"
 	},
-	"status": "passed",
+	"status": "failed",
 	"stage": "finished",
 	"steps": [
 		{
 			"name": "* Журнал документов",
-			"start": 1676351223486,
-			"stop": 1676351224372,
-			"status": "passed",
+			"start": 1676379717789,
+			"stop": 1676379725439,
+			"status": "failed",
 			"stage": "finished",
 			"statusDetails": {
 				"known": false,
@@ -30,14 +32,16 @@
 			"steps": [
 				{
 					"name": "И В командном интерфейсе я выбираю 'Главное' 'Журнал документов'",
-					"start": 1676351223486,
-					"stop": 1676351223580,
-					"status": "passed",
+					"start": 1676379717789,
+					"stop": 1676379725427,
+					"status": "failed",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
 						"muted": false,
-						"flaky": false
+						"flaky": false,
+						"message": "Не получилось нажать на команду <Журнал документов> панели функций.",
+						"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(7270)}: {ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(7142)}: Не получилось нажать на команду <Журнал документов> панели функций.\nНе нашли меню функций раздела.\nПанель разделов <Главное>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Отдел гарантии и эксплуатации - Авдеев Никита Николаевич [ДНС Девелопмент]\n        ИмяАктивнойФормы: \n        ИмяФичи: СН Цепочка документов под Админом\n        ИмяСценария: Создание Плана производства\n        НомерСтрокиДерева: 45\n        НомерСтрокиФичи: 55\n        ПолныйПутьКФиче: C:\\VA\\TestsProject\\УБД 21 СН.feature\n        ИмяФайла: C:/VA/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВКомандномИнтерфейсеЯВыбираю\n        ИмяРаннера: ADM-PROG-90\n        ТипПлатформы: Windows x86-64\n        ИмяКлиентаТестирования: ПЭО\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"sand-1c-13:3541\";Ref=\"13_tyisyachnyiy_test_platforma\";\n        ДопПараметрыПодключения: /N\"Авдеев Никита\" /P\"1\" \n        PIDКлиентаТестирования: 14588\n        ВерсияVA: ver 1.2.040.1\n        ВерсияПлатформы: 8.3.21.1302\n        РежимСовместимостиTestManager: Версия8_3_19\n        ВремяРаботыСценария: 0,1 минут\n        ДатаВремяОшибки: 14.02.2023 23:02:05"
 					},
 					"parameters": [
 						{
@@ -54,9 +58,9 @@
 				},
 				{
 					"name": "Тогда открылось окно 'Журнал документов: *'",
-					"start": 1676351223587,
-					"stop": 1676351223913,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -74,9 +78,9 @@
 				},
 				{
 					"name": "И из выпадающего списка с именем \"ПолеВводаТипДокумента\" я выбираю по строке 'план производства'",
-					"start": 1676351223916,
-					"stop": 1676351224340,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -98,9 +102,9 @@
 				},
 				{
 					"name": "Тогда открылось окно 'Журнал документов: План производства'",
-					"start": 1676351224344,
-					"stop": 1676351224356,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -118,9 +122,9 @@
 				},
 				{
 					"name": "Когда открылось окно 'Журнал документов: План производства'",
-					"start": 1676351224358,
-					"stop": 1676351224361,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -138,9 +142,9 @@
 				},
 				{
 					"name": "И в таблице \"ТабличноеПолеСписокДокументов\" я нажимаю на кнопку с именем 'ТабличноеПолеСписокДокументовСоздать'",
-					"start": 1676351224363,
-					"stop": 1676351224372,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -164,9 +168,9 @@
 		},
 		{
 			"name": "* Заполнение реквизитов документа",
-			"start": 1676351224375,
-			"stop": 1676351225547,
-			"status": "passed",
+			"start": 1676379725439,
+			"stop": 1676379725439,
+			"status": "skipped",
 			"stage": "finished",
 			"statusDetails": {
 				"known": false,
@@ -178,9 +182,9 @@
 			"steps": [
 				{
 					"name": "Тогда открылось окно 'План производства (создание)'",
-					"start": 1676351224375,
-					"stop": 1676351224481,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -198,9 +202,9 @@
 				},
 				{
 					"name": "И в таблице \"ВидыДокумента\" я перехожу к строке:",
-					"start": 1676351224484,
-					"stop": 1676351224489,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -216,7 +220,7 @@
 					"attachments": [
 						{
 							"name": "table",
-							"source": "0ed0afda-21e8-496f-89d9-8668f7d34583-attachment.csv",
+							"source": "c913e2ad-5cbc-4c6c-813e-4e517d8b669c-attachment.csv",
 							"type": "text/csv"
 						}
 					],
@@ -224,9 +228,9 @@
 				},
 				{
 					"name": "И в таблице \"ВидыДокумента\" я выбираю текущую строку",
-					"start": 1676351224492,
-					"stop": 1676351224498,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -244,9 +248,9 @@
 				},
 				{
 					"name": "Тогда открылось окно 'План производства  (Новый)'",
-					"start": 1676351224503,
-					"stop": 1676351224876,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -264,9 +268,9 @@
 				},
 				{
 					"name": "И из выпадающего списка с именем \"Склад\" я выбираю по строке 'Склад участка дорожек'",
-					"start": 1676351224879,
-					"stop": 1676351225238,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -288,9 +292,9 @@
 				},
 				{
 					"name": "И я перехожу к следующему реквизиту",
-					"start": 1676351225240,
-					"stop": 1676351225246,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -303,9 +307,9 @@
 				},
 				{
 					"name": "И из выпадающего списка с именем \"СкладГотовойПродукции\" я выбираю по строке 'Склад участка дорожек'",
-					"start": 1676351225249,
-					"stop": 1676351225521,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -327,9 +331,9 @@
 				},
 				{
 					"name": "И я перехожу к следующему реквизиту",
-					"start": 1676351225524,
-					"stop": 1676351225529,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -342,9 +346,9 @@
 				},
 				{
 					"name": "И в поле с именем 'ДатаПроизводства' я ввожу текст '20.02.2023'",
-					"start": 1676351225532,
-					"stop": 1676351225541,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -366,9 +370,9 @@
 				},
 				{
 					"name": "И я перехожу к следующему реквизиту",
-					"start": 1676351225544,
-					"stop": 1676351225547,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -383,9 +387,9 @@
 		},
 		{
 			"name": "* Заполнение СоставОпераций",
-			"start": 1676351225550,
-			"stop": 1676351226034,
-			"status": "passed",
+			"start": 1676379725439,
+			"stop": 1676379725439,
+			"status": "skipped",
 			"stage": "finished",
 			"statusDetails": {
 				"known": false,
@@ -397,9 +401,9 @@
 			"steps": [
 				{
 					"name": "И в таблице \"СоставОпераций\" я нажимаю на кнопку с именем 'СоставОперацийДобавить'",
-					"start": 1676351225550,
-					"stop": 1676351225572,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -421,9 +425,9 @@
 				},
 				{
 					"name": "И в таблице \"СоставОпераций\" я нажимаю кнопку выбора у реквизита с именем \"СоставОперацийТехОперация\"",
-					"start": 1676351225575,
-					"stop": 1676351225630,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -445,9 +449,9 @@
 				},
 				{
 					"name": "Тогда открылось окно 'Технологические операции'",
-					"start": 1676351225633,
-					"stop": 1676351225903,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -465,9 +469,9 @@
 				},
 				{
 					"name": "И в таблице \"Список\" я перехожу к строке:",
-					"start": 1676351225906,
-					"stop": 1676351225918,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -483,7 +487,7 @@
 					"attachments": [
 						{
 							"name": "table",
-							"source": "d17a3ff9-929c-49e5-9c8b-6916c76f3714-attachment.csv",
+							"source": "cdbaf21b-aac2-4db7-b229-be8c50718e5b-attachment.csv",
 							"type": "text/csv"
 						}
 					],
@@ -491,9 +495,9 @@
 				},
 				{
 					"name": "И в таблице \"Список\" я выбираю текущую строку",
-					"start": 1676351225921,
-					"stop": 1676351225925,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -511,9 +515,9 @@
 				},
 				{
 					"name": "Тогда открылось окно 'План производства  (Новый) *'",
-					"start": 1676351225929,
-					"stop": 1676351226027,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -531,9 +535,9 @@
 				},
 				{
 					"name": "И в таблице \"СоставОпераций\" я завершаю редактирование строки",
-					"start": 1676351226029,
-					"stop": 1676351226034,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -553,9 +557,9 @@
 		},
 		{
 			"name": "* Заполнение ИсходныеТМЦ",
-			"start": 1676351226037,
-			"stop": 1676351226567,
-			"status": "passed",
+			"start": 1676379725439,
+			"stop": 1676379725439,
+			"status": "skipped",
 			"stage": "finished",
 			"statusDetails": {
 				"known": false,
@@ -567,9 +571,9 @@
 			"steps": [
 				{
 					"name": "И в таблице \"ИсходныеТМЦ\" я нажимаю на кнопку с именем 'ИсходныеТМЦДобавить'",
-					"start": 1676351226037,
-					"stop": 1676351226051,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -591,9 +595,9 @@
 				},
 				{
 					"name": "И в таблице \"ИсходныеТМЦ\" я активизирую поле с именем \"ИсходныеТМЦНоменклатура\"",
-					"start": 1676351226054,
-					"stop": 1676351226074,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -615,9 +619,9 @@
 				},
 				{
 					"name": "И в таблице \"ИсходныеТМЦ\" я выбираю текущую строку",
-					"start": 1676351226077,
-					"stop": 1676351226081,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -635,9 +639,9 @@
 				},
 				{
 					"name": "И в таблице \"ИсходныеТМЦ\" в поле с именем 'ИсходныеТМЦНоменклатура' я ввожу текст 'каркас'",
-					"start": 1676351226189,
-					"stop": 1676351226204,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -663,9 +667,9 @@
 				},
 				{
 					"name": "И в таблице \"ИсходныеТМЦ\" из выпадающего списка с именем \"ИсходныеТМЦНоменклатура\" я выбираю по строке 'Каркас балки Б 176.35.22-3'",
-					"start": 1676351226207,
-					"stop": 1676351226527,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -691,9 +695,9 @@
 				},
 				{
 					"name": "И в таблице \"ИсходныеТМЦ\" в поле с именем 'ИсходныеТМЦКоличествоНаЕд' я ввожу текст '1'",
-					"start": 1676351226529,
-					"stop": 1676351226560,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -719,9 +723,9 @@
 				},
 				{
 					"name": "И в таблице \"ИсходныеТМЦ\" я завершаю редактирование строки",
-					"start": 1676351226563,
-					"stop": 1676351226567,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -741,9 +745,9 @@
 		},
 		{
 			"name": "* Заполнение ПолучаемыеТМЦ",
-			"start": 1676351226569,
-			"stop": 1676351227516,
-			"status": "passed",
+			"start": 1676379725439,
+			"stop": 1676379725440,
+			"status": "skipped",
 			"stage": "finished",
 			"statusDetails": {
 				"known": false,
@@ -755,9 +759,9 @@
 			"steps": [
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я нажимаю на кнопку с именем 'ПолучаемыеТМЦДобавить'",
-					"start": 1676351226569,
-					"stop": 1676351226606,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -779,9 +783,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦНоменклатура\"",
-					"start": 1676351226609,
-					"stop": 1676351226630,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -803,9 +807,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я выбираю текущую строку",
-					"start": 1676351226633,
-					"stop": 1676351226636,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -823,9 +827,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" из выпадающего списка с именем \"ПолучаемыеТМЦНоменклатура\" я выбираю по строке 'Плита перекрытия 119.216-3'",
-					"start": 1676351226638,
-					"stop": 1676351226968,
-					"status": "passed",
+					"start": 1676379725439,
+					"stop": 1676379725439,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -851,9 +855,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦКоличествоНаЕд\"",
-					"start": 1676351226971,
-					"stop": 1676351226990,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -875,9 +879,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" в поле с именем 'ПолучаемыеТМЦКоличествоНаЕд' я ввожу текст '1'",
-					"start": 1676351226992,
-					"stop": 1676351227008,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -903,9 +907,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦДоля\"",
-					"start": 1676351227011,
-					"stop": 1676351227043,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -927,9 +931,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" в поле с именем 'ПолучаемыеТМЦДоля' я ввожу текст '1,00000'",
-					"start": 1676351227046,
-					"stop": 1676351227066,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -955,9 +959,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦСерийныеНомера\"",
-					"start": 1676351227070,
-					"stop": 1676351227090,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -979,9 +983,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я нажимаю кнопку выбора у реквизита с именем \"ПолучаемыеТМЦСерийныеНомера\"",
-					"start": 1676351227093,
-					"stop": 1676351227111,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -1003,9 +1007,9 @@
 				},
 				{
 					"name": "И Я выбираю серийный номер '$$ВАСерийныйНомер$$' в форме выбора",
-					"start": 1676351227114,
-					"stop": 1676351227482,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -1017,9 +1021,9 @@
 					"steps": [
 						{
 							"name": "Тогда открылось окно 'Форма выбора'",
-							"start": 1676351227114,
-							"stop": 1676351227351,
-							"status": "passed",
+							"start": 1676379725440,
+							"stop": 1676379725440,
+							"status": "skipped",
 							"stage": "finished",
 							"statusDetails": {
 								"known": false,
@@ -1037,9 +1041,9 @@
 						},
 						{
 							"name": "И в таблице \"СерийныеНомера\" я перехожу к строке:",
-							"start": 1676351227354,
-							"stop": 1676351227404,
-							"status": "passed",
+							"start": 1676379725440,
+							"stop": 1676379725440,
+							"status": "skipped",
 							"stage": "finished",
 							"statusDetails": {
 								"known": false,
@@ -1055,7 +1059,7 @@
 							"attachments": [
 								{
 									"name": "table",
-									"source": "a4b86ccb-f964-4e0d-b7b5-16906044d688-attachment.csv",
+									"source": "db671c7a-2929-41b2-95b9-4c869d2c4b5d-attachment.csv",
 									"type": "text/csv"
 								}
 							],
@@ -1063,9 +1067,9 @@
 						},
 						{
 							"name": "И в таблице \"СерийныеНомера\" я изменяю флаг с именем 'ТаблицаДанныхВыбран'",
-							"start": 1676351227407,
-							"stop": 1676351227420,
-							"status": "passed",
+							"start": 1676379725440,
+							"stop": 1676379725440,
+							"status": "skipped",
 							"stage": "finished",
 							"statusDetails": {
 								"known": false,
@@ -1087,9 +1091,9 @@
 						},
 						{
 							"name": "И в таблице \"СерийныеНомера\" я активизирую поле с именем \"ТаблицаДанныхВыбран\"",
-							"start": 1676351227423,
-							"stop": 1676351227462,
-							"status": "passed",
+							"start": 1676379725440,
+							"stop": 1676379725440,
+							"status": "skipped",
 							"stage": "finished",
 							"statusDetails": {
 								"known": false,
@@ -1111,9 +1115,9 @@
 						},
 						{
 							"name": "И в таблице \"СерийныеНомера\" я завершаю редактирование строки",
-							"start": 1676351227466,
-							"stop": 1676351227468,
-							"status": "passed",
+							"start": 1676379725440,
+							"stop": 1676379725440,
+							"status": "skipped",
 							"stage": "finished",
 							"statusDetails": {
 								"known": false,
@@ -1131,9 +1135,9 @@
 						},
 						{
 							"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
-							"start": 1676351227471,
-							"stop": 1676351227482,
-							"status": "passed",
+							"start": 1676379725440,
+							"stop": 1676379725440,
+							"status": "skipped",
 							"stage": "finished",
 							"statusDetails": {
 								"known": false,
@@ -1153,9 +1157,9 @@
 				},
 				{
 					"name": "Тогда открылось окно 'План производства  (Новый) *'",
-					"start": 1676351227485,
-					"stop": 1676351227507,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -1173,9 +1177,9 @@
 				},
 				{
 					"name": "И в таблице \"ПолучаемыеТМЦ\" я завершаю редактирование строки",
-					"start": 1676351227509,
-					"stop": 1676351227516,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
@@ -1195,9 +1199,9 @@
 		},
 		{
 			"name": "* Проведение документа",
-			"start": 1676351227519,
-			"stop": 1676351227533,
-			"status": "passed",
+			"start": 1676379725440,
+			"stop": 1676379725440,
+			"status": "skipped",
 			"stage": "finished",
 			"statusDetails": {
 				"known": false,
@@ -1209,9 +1213,9 @@
 			"steps": [
 				{
 					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
-					"start": 1676351227519,
-					"stop": 1676351227533,
-					"status": "passed",
+					"start": 1676379725440,
+					"stop": 1676379725440,
+					"status": "skipped",
 					"stage": "finished",
 					"statusDetails": {
 						"known": false,
