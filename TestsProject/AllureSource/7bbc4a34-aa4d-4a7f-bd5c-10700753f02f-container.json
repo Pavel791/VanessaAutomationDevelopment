@@ -1,0 +1,63 @@
+{
+	"uuid": "4a1b41e2-49bd-446a-84cb-6e66e3a00139",
+	"name": "Контекст_Закрытие сеанса",
+	"description": "",
+	"children": [
+		"7bbc4a34-aa4d-4a7f-bd5c-10700753f02f"
+	],
+	"befores": [
+		{
+			"name": "Дано Я подключаю клиент тестирования \"Комерчиский отдел\"",
+			"start": 1676351228402,
+			"stop": 1676351229480,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я подключаю клиент тестирования \"Комерчиский отдел\" из таблицы клиентов тестирования",
+					"start": 1676351228402,
+					"stop": 1676351228962,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Комерчиский отдел"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1676351229271,
+					"stop": 1676351229480,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"start": null,
+	"stop": null
+}

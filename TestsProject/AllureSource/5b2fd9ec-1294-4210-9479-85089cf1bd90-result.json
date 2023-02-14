@@ -1,0 +1,99 @@
+{
+	"uuid": "5b2fd9ec-1294-4210-9479-85089cf1bd90",
+	"historyId": "СН Цепочка документов под Админом.Переоткрытия клиента",
+	"name": "Переоткрытия клиента",
+	"fullName": "убд 21 сн.feature_переоткрытия клиента",
+	"testCaseId": "937a29aa34e7064bb4514146818a6901",
+	"start": 1676351212869,
+	"stop": 1676351221644,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "Дано Я подключаю клиент тестирования \"ПЭО\"",
+			"start": 1676351220626,
+			"stop": 1676351221643,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я подключаю клиент тестирования \"ПЭО\" из таблицы клиентов тестирования",
+					"start": 1676351220626,
+					"stop": 1676351221142,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПЭО"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1676351221456,
+					"stop": 1676351221643,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Переоткрытия клиента"
+		},
+		{
+			"name": "feature",
+			"value": "Переоткрытия клиента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

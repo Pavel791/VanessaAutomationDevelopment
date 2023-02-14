@@ -1,0 +1,566 @@
+{
+	"uuid": "579fa490-2784-482e-b24d-0f147e2620ff",
+	"historyId": "СН Цепочка документов под Админом.Создание Плана Отгрузок",
+	"name": "Создание Плана Отгрузок",
+	"fullName": "убд 21 сн.feature_создание плана отгрузок",
+	"testCaseId": "51ca6dd426397c53b36c6f9649878a91",
+	"start": 1676351192302,
+	"stop": 1676351202970,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Журнал документов",
+			"start": 1676351200316,
+			"stop": 1676351201246,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Главное' 'Журнал документов'",
+					"start": 1676351200316,
+					"stop": 1676351200433,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Главное"
+						},
+						{
+							"name": "Парам2",
+							"value": "Журнал документов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Журнал документов: *'",
+					"start": 1676351200437,
+					"stop": 1676351200808,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Журнал документов: *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ПолеВводаТипДокумента\" я выбираю по строке 'план отгрузок'",
+					"start": 1676351200810,
+					"stop": 1676351201211,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолеВводаТипДокумента"
+						},
+						{
+							"name": "Парам2",
+							"value": "план отгрузок"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Журнал документов: План отгрузок'",
+					"start": 1676351201214,
+					"stop": 1676351201220,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Журнал документов: План отгрузок"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1676351201222,
+					"stop": 1676351201225,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ТабличноеПолеСписокДокументов\" я нажимаю на кнопку с именем 'ТабличноеПолеСписокДокументовСоздать'",
+					"start": 1676351201228,
+					"stop": 1676351201246,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТабличноеПолеСписокДокументов"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТабличноеПолеСписокДокументовСоздать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* План Отгрузок",
+			"start": 1676351201249,
+			"stop": 1676351202967,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда открылось окно 'План отгрузок  (Новый)'",
+					"start": 1676351201249,
+					"stop": 1676351201558,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "План отгрузок  (Новый)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я нажимаю на кнопку с именем 'СоставДобавить'",
+					"start": 1676351201560,
+					"stop": 1676351201572,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Подразделение\" я выбираю по строке 'участок дорожек'",
+					"start": 1676351201575,
+					"stop": 1676351201856,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Подразделение"
+						},
+						{
+							"name": "Парам2",
+							"value": "участок дорожек"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1676351201859,
+					"stop": 1676351201865,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я активизирую поле с именем \"СоставНоменклатура\"",
+					"start": 1676351201868,
+					"stop": 1676351201878,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я выбираю текущую строку",
+					"start": 1676351201882,
+					"stop": 1676351201893,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" из выпадающего списка с именем \"СоставНоменклатура\" я выбираю по строке 'Плита перекрытия 119.216-3'",
+					"start": 1676351201897,
+					"stop": 1676351202255,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставНоменклатура"
+						},
+						{
+							"name": "Парам3",
+							"value": "Плита перекрытия 119.216-3"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я активизирую поле с именем \"СоставДатаОтгрузки\"",
+					"start": 1676351202258,
+					"stop": 1676351202279,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставДатаОтгрузки"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" в поле с именем 'СоставДатаОтгрузки' я ввожу текст '13.02.2023'",
+					"start": 1676351202282,
+					"stop": 1676351202296,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставДатаОтгрузки"
+						},
+						{
+							"name": "Парам3",
+							"value": "13.02.2023"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я завершаю редактирование строки",
+					"start": 1676351202299,
+					"stop": 1676351202303,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1676351202305,
+					"stop": 1676351202325,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'План отгрузок * от * (Проведен)'",
+					"start": 1676351202327,
+					"stop": 1676351202912,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "План отгрузок * от * (Проведен)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я активизирую поле с именем \"СоставНоменклатура\"",
+					"start": 1676351202915,
+					"stop": 1676351202923,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я запоминаю значение поля с именем \"СоставСерийнынйНомер\" таблицы \"Состав\" как '$$ВАСерийныйНомер$$'",
+					"start": 1676351202926,
+					"stop": 1676351202934,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СоставСерийнынйНомер"
+						},
+						{
+							"name": "Парам2",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам3",
+							"value": "$$ВАСерийныйНомер$$"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я выбираю текущую строку",
+					"start": 1676351202936,
+					"stop": 1676351202940,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю окно 'План отгрузок * от * (Проведен)'",
+					"start": 1676351202943,
+					"stop": 1676351202967,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "План отгрузок * от * (Проведен)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание Плана Отгрузок"
+		},
+		{
+			"name": "feature",
+			"value": "Создание Плана Отгрузок"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

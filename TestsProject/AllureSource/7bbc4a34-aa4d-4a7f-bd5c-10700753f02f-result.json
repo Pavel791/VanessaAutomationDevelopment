@@ -1,0 +1,63 @@
+{
+	"uuid": "7bbc4a34-aa4d-4a7f-bd5c-10700753f02f",
+	"historyId": "СН Цепочка документов под Админом.Закрытие сеанса",
+	"name": "Закрытие сеанса",
+	"fullName": "убд 21 сн.feature_закрытие сеанса",
+	"testCaseId": "8d2cfa8292cba7ec17a9b911b1dddfb9",
+	"start": 1676351228395,
+	"stop": 1676351247560,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю сеанс текущего клиента тестирования",
+			"start": 1676351229579,
+			"stop": 1676351247558,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "feature",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

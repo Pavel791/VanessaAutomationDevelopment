@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 14 13:14:27 VLAT 2023","Tue Feb 14 13:14:43 VLAT 2023","16269","","","","","","Переоткрытия клиента",""
+"passed","Tue Feb 14 13:14:15 VLAT 2023","Tue Feb 14 13:14:26 VLAT 2023","11059","","","","","","Создание Плана Отгрузок",""
+"passed","Tue Feb 14 13:14:44 VLAT 2023","Tue Feb 14 13:14:56 VLAT 2023","12313","","","","","","Создание Плана производства",""
