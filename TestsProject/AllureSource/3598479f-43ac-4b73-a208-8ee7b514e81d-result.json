@@ -1,35 +1,19 @@
 {
-	"uuid": "7bbc4a34-aa4d-4a7f-bd5c-10700753f02f",
+	"uuid": "3598479f-43ac-4b73-a208-8ee7b514e81d",
 	"historyId": "СН Цепочка документов под Админом.Закрытие сеанса",
 	"name": "Закрытие сеанса",
 	"fullName": "убд 21 сн.feature_закрытие сеанса",
 	"testCaseId": "8d2cfa8292cba7ec17a9b911b1dddfb9",
-	"start": 1676351228395,
-	"stop": 1676351247560,
+	"start": 1676379726417,
+	"stop": 1676379726417,
 	"statusDetails": {
 		"known": false,
 		"muted": false,
 		"flaky": false
 	},
-	"status": "passed",
+	"status": "skipped",
 	"stage": "finished",
-	"steps": [
-		{
-			"name": "И я закрываю сеанс текущего клиента тестирования",
-			"start": 1676351229579,
-			"stop": 1676351247558,
-			"status": "passed",
-			"stage": "finished",
-			"statusDetails": {
-				"known": false,
-				"muted": false,
-				"flaky": false
-			},
-			"parameters": [],
-			"attachments": [],
-			"steps": []
-		}
-	],
+	"steps": [],
 	"parameters": [],
 	"labels": [
 		{
