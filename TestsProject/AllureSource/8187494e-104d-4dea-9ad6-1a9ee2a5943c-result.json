@@ -1,0 +1,192 @@
+{
+	"uuid": "8187494e-104d-4dea-9ad6-1a9ee2a5943c",
+	"historyId": "СН Цепочка документов под Админом.Создание Акта контроля качества",
+	"name": "Создание Акта контроля качества",
+	"fullName": "убд 21 сн.feature_создание акта контроля качества",
+	"testCaseId": "2a827d3a6ad883b56d34549a58ed49e7",
+	"start": 1676435712011,
+	"stop": 1676435713403,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Журнал документов",
+			"start": 1676435712048,
+			"stop": 1676435713400,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я создаю документ \"Отгрузка на транзит\" из журнала документов",
+					"start": 1676435712048,
+					"stop": 1676435713400,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И В командном интерфейсе я выбираю 'Главное' 'Журнал документов'",
+							"start": 1676435712048,
+							"stop": 1676435712158,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Главное"
+								},
+								{
+									"name": "Парам2",
+									"value": "Журнал документов"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда открылось окно 'Журнал документов: *'",
+							"start": 1676435712160,
+							"stop": 1676435712915,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Журнал документов: *"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И из выпадающего списка с именем \"ПолеВводаТипДокумента\" я выбираю по строке 'Отгрузка на транзит'",
+							"start": 1676435712916,
+							"stop": 1676435713383,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ПолеВводаТипДокумента"
+								},
+								{
+									"name": "Парам2",
+									"value": "Отгрузка на транзит"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Когда открылось окно 'Журнал документов: Отгрузка на транзит'",
+							"start": 1676435713385,
+							"stop": 1676435713391,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Журнал документов: Отгрузка на транзит"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в таблице \"ТабличноеПолеСписокДокументов\" я нажимаю на кнопку с именем 'ТабличноеПолеСписокДокументовСоздать'",
+							"start": 1676435713393,
+							"stop": 1676435713400,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ТабличноеПолеСписокДокументов"
+								},
+								{
+									"name": "Парам2",
+									"value": "ТабличноеПолеСписокДокументовСоздать"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание Акта контроля качества"
+		},
+		{
+			"name": "feature",
+			"value": "Создание Акта контроля качества"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

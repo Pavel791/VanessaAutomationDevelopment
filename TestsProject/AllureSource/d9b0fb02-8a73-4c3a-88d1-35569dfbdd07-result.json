@@ -1,0 +1,47 @@
+{
+	"uuid": "d9b0fb02-8a73-4c3a-88d1-35569dfbdd07",
+	"historyId": "СН Цепочка документов под Админом.Создание Акта контроля качества",
+	"name": "Создание Акта контроля качества",
+	"fullName": "убд 21 сн.feature_создание акта контроля качества",
+	"testCaseId": "2a827d3a6ad883b56d34549a58ed49e7",
+	"start": 1676435714787,
+	"stop": 1676435714787,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание Акта контроля качества"
+		},
+		{
+			"name": "feature",
+			"value": "Создание Акта контроля качества"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

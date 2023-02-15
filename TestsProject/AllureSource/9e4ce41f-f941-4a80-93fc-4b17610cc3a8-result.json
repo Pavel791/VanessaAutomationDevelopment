@@ -1,0 +1,47 @@
+{
+	"uuid": "9e4ce41f-f941-4a80-93fc-4b17610cc3a8",
+	"historyId": "СН Цепочка документов под Админом.Открытие клиента",
+	"name": "Открытие клиента",
+	"fullName": "убд 21 сн.feature_открытие клиента",
+	"testCaseId": "ecc708fcabd2f3827aba0212b8afa5ce",
+	"start": 1676435714772,
+	"stop": 1676435714772,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Открытие клиента"
+		},
+		{
+			"name": "feature",
+			"value": "Открытие клиента"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

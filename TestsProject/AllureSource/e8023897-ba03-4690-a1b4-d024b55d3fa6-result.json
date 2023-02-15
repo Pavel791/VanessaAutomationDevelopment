@@ -1,11 +1,11 @@
 {
-	"uuid": "3598479f-43ac-4b73-a208-8ee7b514e81d",
+	"uuid": "e8023897-ba03-4690-a1b4-d024b55d3fa6",
 	"historyId": "СН Цепочка документов под Админом.Закрытие сеанса",
 	"name": "Закрытие сеанса",
 	"fullName": "убд 21 сн.feature_закрытие сеанса",
 	"testCaseId": "8d2cfa8292cba7ec17a9b911b1dddfb9",
-	"start": 1676379726417,
-	"stop": 1676379726417,
+	"start": 1676435714741,
+	"stop": 1676435714741,
 	"statusDetails": {
 		"known": false,
 		"muted": false,

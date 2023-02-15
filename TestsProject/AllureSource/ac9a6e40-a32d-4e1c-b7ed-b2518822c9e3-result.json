@@ -1,0 +1,47 @@
+{
+	"uuid": "ac9a6e40-a32d-4e1c-b7ed-b2518822c9e3",
+	"historyId": "СН Цепочка документов под Админом.Создание Плана Отгрузок",
+	"name": "Создание Плана Отгрузок",
+	"fullName": "убд 21 сн.feature_создание плана отгрузок",
+	"testCaseId": "51ca6dd426397c53b36c6f9649878a91",
+	"start": 1676435714725,
+	"stop": 1676435714725,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "skipped",
+	"stage": "finished",
+	"steps": [],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание Плана Отгрузок"
+		},
+		{
+			"name": "feature",
+			"value": "Создание Плана Отгрузок"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
