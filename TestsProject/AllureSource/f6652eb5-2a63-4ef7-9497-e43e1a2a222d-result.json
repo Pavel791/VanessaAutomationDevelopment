@@ -1,0 +1,204 @@
+{
+	"uuid": "f6652eb5-2a63-4ef7-9497-e43e1a2a222d",
+	"historyId": "СН Цепочка документов под Админом.Закрытие сеанса",
+	"name": "Закрытие сеанса",
+	"fullName": "убд 21 сн.feature_закрытие сеанса",
+	"testCaseId": "8d2cfa8292cba7ec17a9b911b1dddfb9",
+	"start": 1676524285797,
+	"stop": 1676524291513,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю сеанс \"КО\"",
+			"start": 1676524285803,
+			"stop": 1676524291508,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я закрываю TestClient \"КО\"",
+					"start": 1676524285803,
+					"stop": 1676524291398,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "КО"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524291502,
+					"stop": 1676524291503,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную 'Массив'",
+					"start": 1676524291504,
+					"stop": 1676524291505,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Массив"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524291506,
+					"stop": 1676524291506,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524291508,
+					"stop": 1676524291508,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я удаляю переменную 'Плита перекрытия 119.216-3'",
+			"start": 1676524291510,
+			"stop": 1676524291510,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Плита перекрытия 119.216-3"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я удаляю переменную '02-0031209'",
+			"start": 1676524291511,
+			"stop": 1676524291512,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "02-0031209"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "feature",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

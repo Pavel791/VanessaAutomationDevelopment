@@ -1,0 +1,164 @@
+{
+	"uuid": "dfa99c69-60c0-4de3-817c-cfa79f353136",
+	"historyId": "СН Цепочка документов под Админом.Закрытие сеанса",
+	"name": "Закрытие сеанса",
+	"fullName": "убд 21 сн.feature_закрытие сеанса",
+	"testCaseId": "8d2cfa8292cba7ec17a9b911b1dddfb9",
+	"start": 1676524266024,
+	"stop": 1676524270521,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю сеанс \"ПЭО\"",
+			"start": 1676524266030,
+			"stop": 1676524270520,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я закрываю TestClient \"ПЭО\"",
+					"start": 1676524266030,
+					"stop": 1676524270215,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПЭО"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524270314,
+					"stop": 1676524270314,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную 'Массив'",
+					"start": 1676524270316,
+					"stop": 1676524270316,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Массив"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524270518,
+					"stop": 1676524270518,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524270520,
+					"stop": 1676524270520,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "feature",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

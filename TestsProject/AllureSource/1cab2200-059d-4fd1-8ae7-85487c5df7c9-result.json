@@ -1,0 +1,164 @@
+{
+	"uuid": "1cab2200-059d-4fd1-8ae7-85487c5df7c9",
+	"historyId": "СН Цепочка документов под Админом.Закрытие сеанса",
+	"name": "Закрытие сеанса",
+	"fullName": "убд 21 сн.feature_закрытие сеанса",
+	"testCaseId": "8d2cfa8292cba7ec17a9b911b1dddfb9",
+	"start": 1676524243987,
+	"stop": 1676524249539,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я закрываю сеанс \"Третий\"",
+			"start": 1676524243993,
+			"stop": 1676524249538,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я закрываю TestClient \"Третий\"",
+					"start": 1676524243993,
+					"stop": 1676524249433,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Третий"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524249532,
+					"stop": 1676524249533,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную 'Массив'",
+					"start": 1676524249534,
+					"stop": 1676524249535,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Массив"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524249536,
+					"stop": 1676524249537,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я удаляю переменную ''",
+					"start": 1676524249538,
+					"stop": 1676524249538,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": ""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "feature",
+			"value": "Закрытие сеанса"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

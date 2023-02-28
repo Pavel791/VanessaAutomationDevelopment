@@ -1,0 +1,1259 @@
+{
+	"uuid": "9eb7b1e2-83de-4128-8d05-7ee2b308cfbb",
+	"historyId": "СН Цепочка документов под Админом.Создание Плана производства",
+	"name": "Создание Плана производства",
+	"fullName": "убд 21 сн.feature_создание плана производства",
+	"testCaseId": "9b080b2eb3493a3020405f4e1ec76f7e",
+	"start": 1676524178890,
+	"stop": 1676524183375,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Журнал документов",
+			"start": 1676524178897,
+			"stop": 1676524180156,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я создаю документ \"План производства\" из журнала документов",
+					"start": 1676524178897,
+					"stop": 1676524180156,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И В командном интерфейсе я выбираю 'Главное' 'Журнал документов'",
+							"start": 1676524178897,
+							"stop": 1676524178973,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Главное"
+								},
+								{
+									"name": "Парам2",
+									"value": "Журнал документов"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда открылось окно 'Журнал документов: *'",
+							"start": 1676524178975,
+							"stop": 1676524179700,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Журнал документов: *"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И из выпадающего списка с именем \"ПолеВводаТипДокумента\" я выбираю по строке 'План производства'",
+							"start": 1676524179701,
+							"stop": 1676524180137,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ПолеВводаТипДокумента"
+								},
+								{
+									"name": "Парам2",
+									"value": "План производства"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Когда открылось окно 'Журнал документов: План производства'",
+							"start": 1676524180138,
+							"stop": 1676524180147,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Журнал документов: План производства"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в таблице \"ТабличноеПолеСписокДокументов\" я нажимаю на кнопку с именем 'ТабличноеПолеСписокДокументовСоздать'",
+							"start": 1676524180149,
+							"stop": 1676524180156,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ТабличноеПолеСписокДокументов"
+								},
+								{
+									"name": "Парам2",
+									"value": "ТабличноеПолеСписокДокументовСоздать"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "* Заполнение реквизитов документа",
+			"start": 1676524180158,
+			"stop": 1676524181255,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда открылось окно 'План производства (создание)'",
+					"start": 1676524180158,
+					"stop": 1676524180251,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "План производства (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ВидыДокумента\" я перехожу к строке:",
+					"start": 1676524180252,
+					"stop": 1676524180268,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидыДокумента"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "5d9ed12a-c794-4565-a5f3-9689609e1192-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ВидыДокумента\" я выбираю текущую строку",
+					"start": 1676524180271,
+					"stop": 1676524180285,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидыДокумента"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'План производства  (Новый)'",
+					"start": 1676524180286,
+					"stop": 1676524180637,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "План производства  (Новый)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"Склад\" я выбираю по строке 'Склад участка дорожек'",
+					"start": 1676524180640,
+					"stop": 1676524180946,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Склад"
+						},
+						{
+							"name": "Парам2",
+							"value": "Склад участка дорожек"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1676524180947,
+					"stop": 1676524180954,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"СкладГотовойПродукции\" я выбираю по строке 'Склад участка дорожек'",
+					"start": 1676524180955,
+					"stop": 1676524181229,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СкладГотовойПродукции"
+						},
+						{
+							"name": "Парам2",
+							"value": "Склад участка дорожек"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1676524181231,
+					"stop": 1676524181235,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'ДатаПроизводства' я ввожу текст '20.02.2023'",
+					"start": 1676524181237,
+					"stop": 1676524181250,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ДатаПроизводства"
+						},
+						{
+							"name": "Парам2",
+							"value": "20.02.2023"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1676524181252,
+					"stop": 1676524181255,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Заполнение СоставОпераций",
+			"start": 1676524181257,
+			"stop": 1676524181663,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"СоставОпераций\" я нажимаю на кнопку с именем 'СоставОперацийДобавить'",
+					"start": 1676524181257,
+					"stop": 1676524181272,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СоставОпераций"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставОперацийДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"СоставОпераций\" я нажимаю кнопку выбора у реквизита с именем \"СоставОперацийТехОперация\"",
+					"start": 1676524181273,
+					"stop": 1676524181318,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СоставОпераций"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставОперацийТехОперация"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Технологические операции'",
+					"start": 1676524181320,
+					"stop": 1676524181548,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Технологические операции"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я перехожу к строке:",
+					"start": 1676524181549,
+					"stop": 1676524181566,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "caff2a67-307e-4c5a-99fa-f872440d8cc4-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1676524181568,
+					"stop": 1676524181574,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'План производства  (Новый) *'",
+					"start": 1676524181575,
+					"stop": 1676524181655,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "План производства  (Новый) *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"СоставОпераций\" я завершаю редактирование строки",
+					"start": 1676524181656,
+					"stop": 1676524181663,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СоставОпераций"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Заполнение ИсходныеТМЦ",
+			"start": 1676524181770,
+			"stop": 1676524182243,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"ИсходныеТМЦ\" я нажимаю на кнопку с именем 'ИсходныеТМЦДобавить'",
+					"start": 1676524181770,
+					"stop": 1676524181779,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИсходныеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ИсходныеТМЦДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ИсходныеТМЦ\" я активизирую поле с именем \"ИсходныеТМЦНоменклатура\"",
+					"start": 1676524181781,
+					"stop": 1676524181804,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИсходныеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ИсходныеТМЦНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ИсходныеТМЦ\" я выбираю текущую строку",
+					"start": 1676524181806,
+					"stop": 1676524181812,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИсходныеТМЦ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ИсходныеТМЦ\" в поле с именем 'ИсходныеТМЦНоменклатура' я ввожу текст 'каркас'",
+					"start": 1676524181813,
+					"stop": 1676524181873,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИсходныеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ИсходныеТМЦНоменклатура"
+						},
+						{
+							"name": "Парам3",
+							"value": "каркас"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ИсходныеТМЦ\" из выпадающего списка с именем \"ИсходныеТМЦНоменклатура\" я выбираю по строке 'Пустотный монолит 120м 6К7d12,5'",
+					"start": 1676524181876,
+					"stop": 1676524182199,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИсходныеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ИсходныеТМЦНоменклатура"
+						},
+						{
+							"name": "Парам3",
+							"value": "Пустотный монолит 120м 6К7d12,5"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ИсходныеТМЦ\" в поле с именем 'ИсходныеТМЦКоличествоНаЕд' я ввожу текст '1'",
+					"start": 1676524182201,
+					"stop": 1676524182235,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИсходныеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ИсходныеТМЦКоличествоНаЕд"
+						},
+						{
+							"name": "Парам3",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ИсходныеТМЦ\" я завершаю редактирование строки",
+					"start": 1676524182237,
+					"stop": 1676524182243,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ИсходныеТМЦ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Заполнение ПолучаемыеТМЦ",
+			"start": 1676524182245,
+			"stop": 1676524183362,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я нажимаю на кнопку с именем 'ПолучаемыеТМЦДобавить'",
+					"start": 1676524182245,
+					"stop": 1676524182272,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦНоменклатура\"",
+					"start": 1676524182274,
+					"stop": 1676524182297,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦНоменклатура"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я выбираю текущую строку",
+					"start": 1676524182299,
+					"stop": 1676524182302,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" из выпадающего списка с именем \"ПолучаемыеТМЦНоменклатура\" я выбираю по строке 'Плита перекрытия 119.216-3'",
+					"start": 1676524182304,
+					"stop": 1676524182653,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦНоменклатура"
+						},
+						{
+							"name": "Парам3",
+							"value": "Плита перекрытия 119.216-3"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦКоличествоНаЕд\"",
+					"start": 1676524182655,
+					"stop": 1676524182673,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦКоличествоНаЕд"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" в поле с именем 'ПолучаемыеТМЦКоличествоНаЕд' я ввожу текст '1'",
+					"start": 1676524182675,
+					"stop": 1676524182694,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦКоличествоНаЕд"
+						},
+						{
+							"name": "Парам3",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦДоля\"",
+					"start": 1676524182696,
+					"stop": 1676524182725,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦДоля"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" в поле с именем 'ПолучаемыеТМЦДоля' я ввожу текст '1,00000'",
+					"start": 1676524182727,
+					"stop": 1676524182746,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦДоля"
+						},
+						{
+							"name": "Парам3",
+							"value": "1,00000"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я активизирую поле с именем \"ПолучаемыеТМЦСерийныеНомера\"",
+					"start": 1676524182748,
+					"stop": 1676524182768,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦСерийныеНомера"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я нажимаю кнопку выбора у реквизита с именем \"ПолучаемыеТМЦСерийныеНомера\"",
+					"start": 1676524182770,
+					"stop": 1676524182786,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						},
+						{
+							"name": "Парам2",
+							"value": "ПолучаемыеТМЦСерийныеНомера"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я выбираю серийный номер '$$ВА_СерийныйНомер$$' в форме выбора",
+					"start": 1676524182788,
+					"stop": 1676524183330,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "Тогда открылось окно 'Форма выбора'",
+							"start": 1676524182788,
+							"stop": 1676524183171,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Форма выбора"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в таблице \"СерийныеНомера\" я перехожу к строке:",
+							"start": 1676524183173,
+							"stop": 1676524183253,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "СерийныеНомера"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "0bde91ed-3ac8-4065-9ac4-a1b001830ce2-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И в таблице \"СерийныеНомера\" я изменяю флаг с именем 'ТаблицаДанныхВыбран'",
+							"start": 1676524183254,
+							"stop": 1676524183268,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "СерийныеНомера"
+								},
+								{
+									"name": "Парам2",
+									"value": "ТаблицаДанныхВыбран"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в таблице \"СерийныеНомера\" я активизирую поле с именем \"ТаблицаДанныхВыбран\"",
+							"start": 1676524183270,
+							"stop": 1676524183314,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "СерийныеНомера"
+								},
+								{
+									"name": "Парам2",
+									"value": "ТаблицаДанныхВыбран"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в таблице \"СерийныеНомера\" я завершаю редактирование строки",
+							"start": 1676524183315,
+							"stop": 1676524183318,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "СерийныеНомера"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+							"start": 1676524183319,
+							"stop": 1676524183330,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ФормаВыбрать"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "Тогда открылось окно 'План производства  (Новый) *'",
+					"start": 1676524183332,
+					"stop": 1676524183355,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "План производства  (Новый) *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ПолучаемыеТМЦ\" я завершаю редактирование строки",
+					"start": 1676524183356,
+					"stop": 1676524183362,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ПолучаемыеТМЦ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Проведение документа",
+			"start": 1676524183364,
+			"stop": 1676524183374,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1676524183364,
+					"stop": 1676524183374,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание Плана производства"
+		},
+		{
+			"name": "feature",
+			"value": "Создание Плана производства"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

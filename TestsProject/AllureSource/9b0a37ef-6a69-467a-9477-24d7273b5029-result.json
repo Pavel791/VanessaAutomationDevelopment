@@ -1,0 +1,632 @@
+{
+	"uuid": "9b0a37ef-6a69-467a-9477-24d7273b5029",
+	"historyId": "СН Цепочка документов под Админом.Создание Акта контроля качества",
+	"name": "Создание Акта контроля качества",
+	"fullName": "убд 21 сн.feature_создание акта контроля качества",
+	"testCaseId": "2a827d3a6ad883b56d34549a58ed49e7",
+	"start": 1676524239737,
+	"stop": 1676524243191,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Журнал документов",
+			"start": 1676524239744,
+			"stop": 1676524240795,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я создаю документ \"Акт контроля качества\" из журнала документов",
+					"start": 1676524239744,
+					"stop": 1676524240795,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И В командном интерфейсе я выбираю 'Главное' 'Журнал документов'",
+							"start": 1676524239744,
+							"stop": 1676524239835,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Главное"
+								},
+								{
+									"name": "Парам2",
+									"value": "Журнал документов"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда открылось окно 'Журнал документов: *'",
+							"start": 1676524239838,
+							"stop": 1676524240405,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Журнал документов: *"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И из выпадающего списка с именем \"ПолеВводаТипДокумента\" я выбираю по строке 'Акт контроля качества'",
+							"start": 1676524240407,
+							"stop": 1676524240781,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ПолеВводаТипДокумента"
+								},
+								{
+									"name": "Парам2",
+									"value": "Акт контроля качества"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Когда открылось окно 'Журнал документов: Акт контроля качества'",
+							"start": 1676524240783,
+							"stop": 1676524240786,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Журнал документов: Акт контроля качества"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "И в таблице \"ТабличноеПолеСписокДокументов\" я нажимаю на кнопку с именем 'ТабличноеПолеСписокДокументовСоздать'",
+							"start": 1676524240787,
+							"stop": 1676524240795,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ТабличноеПолеСписокДокументов"
+								},
+								{
+									"name": "Парам2",
+									"value": "ТабличноеПолеСписокДокументовСоздать"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "*Заполнение Акта контроля качества - На Карантин",
+			"start": 1676524240797,
+			"stop": 1676524242228,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда открылось окно 'Акт контроля качества  (Новый)'",
+					"start": 1676524240797,
+					"stop": 1676524241051,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Акт контроля качества  (Новый)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"СерийныйНомер\" я выбираю по строке '02-0031209'",
+					"start": 1676524241053,
+					"stop": 1676524241338,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СерийныйНомер"
+						},
+						{
+							"name": "Парам2",
+							"value": "02-0031209"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ВидПроверки\" я выбираю по строке 'Приемочный контроль'",
+					"start": 1676524241340,
+					"stop": 1676524241630,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидПроверки"
+						},
+						{
+							"name": "Парам2",
+							"value": "Приемочный контроль"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я перехожу к первой строке",
+					"start": 1676524241735,
+					"stop": 1676524241753,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я активизирую поле с именем \"СоставНесоответствие\"",
+					"start": 1676524241754,
+					"stop": 1676524241765,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставНесоответствие"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я изменяю флаг с именем 'СоставНесоответствие'",
+					"start": 1676524241767,
+					"stop": 1676524241780,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						},
+						{
+							"name": "Парам2",
+							"value": "СоставНесоответствие"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Состав\" я завершаю редактирование строки",
+					"start": 1676524241782,
+					"stop": 1676524241816,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Состав"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"СтатусОтклоненияСерийногоНомера\" я выбираю точное значение 'Карантин'",
+					"start": 1676524241818,
+					"stop": 1676524241843,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СтатусОтклоненияСерийногоНомера"
+						},
+						{
+							"name": "Парам2",
+							"value": "Карантин"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1676524241845,
+					"stop": 1676524241868,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Акт контроля качества * от * (Проведен)'",
+					"start": 1676524241869,
+					"stop": 1676524242225,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Акт контроля качества * от * (Проведен)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю окно 'Акт контроля качества * от * (Проведен)'",
+					"start": 1676524242226,
+					"stop": 1676524242228,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Акт контроля качества * от * (Проведен)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Создание новогго Акта контроля качества",
+			"start": 1676524242230,
+			"stop": 1676524242275,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"ТабличноеПолеСписокДокументов\" я нажимаю на кнопку с именем 'ТабличноеПолеСписокДокументовСоздать'",
+					"start": 1676524242230,
+					"stop": 1676524242275,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТабличноеПолеСписокДокументов"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТабличноеПолеСписокДокументовСоздать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Заполнение Акта контроля качества - На Карантин",
+			"start": 1676524242277,
+			"stop": 1676524243190,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда открылось окно 'Акт контроля качества  (Новый)'",
+					"start": 1676524242277,
+					"stop": 1676524242393,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Акт контроля качества  (Новый)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"СерийныйНомер\" я выбираю по строке '02-0031209'",
+					"start": 1676524242394,
+					"stop": 1676524242663,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СерийныйНомер"
+						},
+						{
+							"name": "Парам2",
+							"value": "02-0031209"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И из выпадающего списка с именем \"ВидПроверки\" я выбираю по строке 'Приемочный контроль'",
+					"start": 1676524242665,
+					"stop": 1676524242934,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидПроверки"
+						},
+						{
+							"name": "Парам2",
+							"value": "Приемочный контроль"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1676524242936,
+					"stop": 1676524242958,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Акт контроля качества * от * (Проведен)'",
+					"start": 1676524242960,
+					"stop": 1676524243186,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Акт контроля качества * от * (Проведен)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю окно 'Акт контроля качества * от * (Проведен)'",
+					"start": 1676524243188,
+					"stop": 1676524243190,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Акт контроля качества * от * (Проведен)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание Акта контроля качества"
+		},
+		{
+			"name": "feature",
+			"value": "Создание Акта контроля качества"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "TestsProject"
+		},
+		{
+			"name": "host",
+			"value": "sand-1c-13"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
